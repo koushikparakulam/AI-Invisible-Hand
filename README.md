@@ -1,4 +1,4 @@
-# InvisibleHand
+# AI Invisible Hand: Multi-Agent LLM Simulator
 
 A Minecraft bot system that uses AI to create autonomous agents capable of gathering resources, interacting with other bots, and surviving in a Minecraft world.
 
