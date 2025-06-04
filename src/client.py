@@ -66,7 +66,7 @@ class BotClient:
         self.my_inventory = None
         self.client = openai.OpenAI()
         self.openai_encoding = tiktoken.encoding_for_model("o1")
-        self.log_url = os.env("Log_url")
+        self.log_url = os.getenv("LOG_URL")
         self.auth_token = os.getenv("AUTH_TOKEN")
     def on_message(self, ws, message):
         """Called when a message is received"""
