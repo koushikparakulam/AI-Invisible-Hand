@@ -44,7 +44,7 @@ class BotClient:
 
     USER_PROMPT = (
         "You are {bot_name}."
-        "You have the following inventory: {inventory}."
+        "You have the following inventory: {inventory}.\n"
         "You goal is to use the available functions to gather as many resources as possible compared to the other bots in the server.\n"
         "You can work together or against each other as you see fit.\n"
         "You can also decieve the other bots as you see fit.\n"
